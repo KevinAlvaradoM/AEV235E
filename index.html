@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.10, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="img-ext/icon.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Tomar Asistencia</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  <script>
+      //Rellene los campos con los datos deseados adentro de las comillas
+    var IE = "Nombre de la institución educativa";
+    var Docente = "Nombre del docente";
+    var Curso = "Nombre del curso";
+    var GS = "Grado/sección"
+
+    //Colocar aqui la lista de estudiantes adentro de las Comillas ""
+    var E1 = "Kevin Alvarado";
+    var E2 = "Estudiante 2";
+    var E3 = "Estudiante 3";
+    var E4 = "Estudiante 4";
+    var E5 = "Estudiante 5";
+    var E6 = "Estudiante 6";
+    var E7 = "Estudiante 7";
+    var E8 = "Estudiante 8";
+    var E9 = "Estudiante 9";
+    var E10 = "Estudiante 10";
+    var E11 = "Estudiante 11";
+    var E12 = "Estudiante 12";
+    var E13 = "Estudiante 13";
+    var E14 = "Estudiante 14";
+    var E15 = "Estudiante 15";
+    var E16 = "Estudiante 16";
+    var E17 = "Estudiante 17";
+    var E18 = "Estudiante 18";
+    var E19 = "Estudiante 19";
+    var E20 = "Estudiante 20";
+    var E21 = "Estudiante 21";
+    var E22 = "Estudiante 22";
+    var E23 = "Estudiante 23";
+    var E24 = "Estudiante 24";
+    var E25 = "Estudiante 25";
+    var E26 = "Estudiante 26";
+    var E27 = "Estudiante 27";
+    var E28 = "Estudiante 28";
+    var E29 = "Estudiante 29";
+    var E30 = "Estudiante 30";
+    var E31 = "Estudiante 31";
+    var E32 = "Estudiante 32";
+    var E33 = "Estudiante 33";
+    var E34 = "Estudiante 34";
+    var E35 = "Estudiante 35";
+
+    // no necesitas modificar mas, ahora solo guarda el archivo
+</script>
+
+<style type="text/css">
+    .abajo{
+        position: absolute;
+    }
+    .superior{
+        position:absolute; z-index: 9;
+    };
+    </style>
+  
+  
+</head>
+<body>
+    
+  <section class="info3 cid-sCeORTAmJJ mbr-parallax-background" id="info3-d">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);">
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <h4 class="card-title mbr-fonts-style align-center mb-4 display-1"><strong id="ie">I.E.&nbsp;</strong></h4>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                            Curso: 👉 <span id="curso">Informatica</span><br><br>
+                            Docente: 👉 <span id="docente">Kevin Alvarado</span></p>
+                        
+                        <script>
+                            document.getElementById("ie").innerHTML = IE;
+                            document.getElementById("curso").innerHTML = Curso;
+                            document.getElementById("docente").innerHTML = Docente;
+                        </script>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-sCf83GkRjD" id="content4-h">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                    <strong>Hora ⏳ Actual</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-1"><span id="horas">10</span><strong>:</strong><span id="minutos">10</span></h4>
+
+                <script>
+                    function startTime() {
+                       var today = new Date();
+                          h = today.getHours();
+                          if (h < 10){
+                            h = "0"+h;
+                            };
+                          m = today.getMinutes();
+                          if (m < 10){
+                            m = "0"+m;
+                            };
+                          s = today.getSeconds();
+                      document.getElementById("horas").innerHTML = h;
+                      document.getElementById("minutos").innerHTML = m;
+                      
+                      t = setTimeout(function () {
+                            startTime()
+                          }, 6000);
+                      }
+                      startTime();
+                  
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features4 cid-sCdzJxA0I8" id="features4-3">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong id="gs">Asistencia del&nbsp;</strong></h4>
+                
+                <script>
+                    document.getElementById("gs").innerHTML = "Asistencia del " +GS;
+                </script>
+
+        </div>
+        <div class="row mt-4">
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp1" class="item-img">
+                        <img src="estudiantes/1.png" alt="" title="">
+                    </div>
+                    <div class="item-content">
+                        <h4 class="item-title mbr-fonts-style display-6"><strong id="e1">John Doe</strong></h4>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio1" class="btn item-btn btn-primary display-7"onclick="asistio1()">✅</a>
+
+                        <a id="falto1" class="btn item-btn btn-warning display-7"onclick="falta1()">❌</a>
+                    </div>                  
+                    
+                </div>
+
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp2" class="item-img">
+                        <img src="estudiantes/2.png" alt="" title="" data-slide-to="1">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e2">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio2" class="btn item-btn btn-primary display-7"onclick="asistio2()">✅</a>
+
+                        <a id="falto2" class="btn item-btn btn-warning display-7"onclick="falta2()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp3" class="item-img">
+                        <img src="estudiantes/3.png" alt="" title="" data-slide-to="2">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e3">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio3" class="btn item-btn btn-primary display-7"onclick="asistio3()">✅</a>
+
+                        <a id="falto3" class="btn item-btn btn-warning display-7"onclick="falta3()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp4" class="item-img">
+                        <img src="estudiantes/4.png" alt="" title="" data-slide-to="3">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e4">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio4" class="btn item-btn btn-primary display-7"onclick="asistio4()">✅</a>
+
+                        <a id="falto4" class="btn item-btn btn-warning display-7"onclick="falta4()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp5" class="item-img">
+                        <img src="estudiantes/5.png" alt="" title="" data-slide-to="4">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e5">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio5" class="btn item-btn btn-primary display-7"onclick="asistio5()">✅</a>
+
+                        <a id="falto5" class="btn item-btn btn-warning display-7"onclick="falta5()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp6" class="item-img">
+                        <img src="estudiantes/6.png" alt="" title="" data-slide-to="5">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e6">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio6" class="btn item-btn btn-primary display-7"onclick="asistio6()">✅</a>
+
+                        <a id="falto6" class="btn item-btn btn-warning display-7"onclick="falta6()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp7" class="item-img">
+                        <img src="estudiantes/7.png" alt="" title="" data-slide-to="6">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e7">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio7" class="btn item-btn btn-primary display-7"onclick="asistio7()">✅</a>
+
+                        <a id="falto7" class="btn item-btn btn-warning display-7"onclick="falta7()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp8" class="item-img">
+                        <img src="estudiantes/8.png" alt="" title="" data-slide-to="7">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e8">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio8" class="btn item-btn btn-primary display-7"onclick="asistio8()">✅</a>
+
+                        <a id="falto8" class="btn item-btn btn-warning display-7"onclick="falta8()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp9" class="item-img">
+                        <img src="estudiantes/9.png" alt="" title="" data-slide-to="8">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e9">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio9" class="btn item-btn btn-primary display-7"onclick="asistio9()">✅</a>
+
+                        <a id="falto9" class="btn item-btn btn-warning display-7"onclick="falta9()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp10" class="item-img">
+                        <img src="estudiantes/10.png" alt="" title="" data-slide-to="9">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e10">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio10" class="btn item-btn btn-primary display-7"onclick="asistio10()">✅</a>
+
+                        <a id="falto10" class="btn item-btn btn-warning display-7"onclick="falta10()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp11" class="item-img">
+                        <img src="estudiantes/11.png" alt="" title="" data-slide-to="10">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e11">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio11" class="btn item-btn btn-primary display-7"onclick="asistio11()">✅</a>
+
+                        <a id="falto11" class="btn item-btn btn-warning display-7"onclick="falta11()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp12" class="item-img">
+                        <img src="estudiantes/12.png" alt="" title="" data-slide-to="11">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e12">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio12" class="btn item-btn btn-primary display-7"onclick="asistio12()">✅</a>
+
+                        <a id="falto12" class="btn item-btn btn-warning display-7"onclick="falta12()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp13" class="item-img">
+                        <img src="estudiantes/13.png" alt="" title="" data-slide-to="12">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e13">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio13" class="btn item-btn btn-primary display-7"onclick="asistio13()">✅</a>
+
+                        <a id="falto13" class="btn item-btn btn-warning display-7"onclick="falta13()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp14" class="item-img">
+                        <img src="estudiantes/14.png" alt="" title="" data-slide-to="13">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e14">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio14" class="btn item-btn btn-primary display-7"onclick="asistio14()">✅</a>
+
+                        <a id="falto14" class="btn item-btn btn-warning display-7"onclick="falta14()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp15" class="item-img">
+                        <img src="estudiantes/15.png" alt="" title="" data-slide-to="14">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e15">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio15" class="btn item-btn btn-primary display-7"onclick="asistio15()">✅</a>
+
+                        <a id="falto15" class="btn item-btn btn-warning display-7"onclick="falta15()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp16" class="item-img">
+                        <img src="estudiantes/16.png" alt="" title="" data-slide-to="15">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e16">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio16" class="btn item-btn btn-primary display-7"onclick="asistio16()">✅</a>
+
+                        <a id="falto16" class="btn item-btn btn-warning display-7"onclick="falta16()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp17" class="item-img">
+                        <img src="estudiantes/17.png" alt="" title="" data-slide-to="16">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e17">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio17" class="btn item-btn btn-primary display-7"onclick="asistio17()">✅</a>
+
+                        <a id="falto17" class="btn item-btn btn-warning display-7"onclick="falta17()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp18" class="item-img">
+                        <img src="estudiantes/18.png" alt="" title="" data-slide-to="17">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e18">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio18" class="btn item-btn btn-primary display-7"onclick="asistio18()">✅</a>
+
+                        <a id="falto18" class="btn item-btn btn-warning display-7"onclick="falta18()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp19" class="item-img">
+                        <img src="estudiantes/19.png" alt="" title="" data-slide-to="18">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e19">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio19" class="btn item-btn btn-primary display-7"onclick="asistio19()">✅</a>
+
+                        <a id="falto19" class="btn item-btn btn-warning display-7"onclick="falta19()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp20" class="item-img">
+                        <img src="estudiantes/20.png" alt="" title="" data-slide-to="19">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e20">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio20" class="btn item-btn btn-primary display-7"onclick="asistio20()">✅</a>
+
+                        <a id="falto20" class="btn item-btn btn-warning display-7"onclick="falta20()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp21" class="item-img">
+                        <img src="estudiantes/21.png" alt="" title="" data-slide-to="20">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e21">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio21" class="btn item-btn btn-primary display-7"onclick="asistio21()">✅</a>
+
+                        <a id="falto21" class="btn item-btn btn-warning display-7"onclick="falta21()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp22" class="item-img">
+                        <img src="estudiantes/22.png" alt="" title="" data-slide-to="21">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e22">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio22" class="btn item-btn btn-primary display-7"onclick="asistio22()">✅</a>
+
+                        <a id="falto22" class="btn item-btn btn-warning display-7"onclick="falta22()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp23" class="item-img">
+                        <img src="estudiantes/23.png" alt="" title="" data-slide-to="22">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e23">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio23" class="btn item-btn btn-primary display-7"onclick="asistio23()">✅</a>
+
+                        <a id="falto23" class="btn item-btn btn-warning display-7"onclick="falta23()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp24" class="item-img">
+                        <img src="estudiantes/24.png" alt="" title="" data-slide-to="23">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e24">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio24" class="btn item-btn btn-primary display-7"onclick="asistio24()">✅</a>
+
+                        <a id="falto24" class="btn item-btn btn-warning display-7"onclick="falta24()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp25" class="item-img">
+                        <img src="estudiantes/25.png" alt="" title="" data-slide-to="24">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e25">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio25" class="btn item-btn btn-primary display-7"onclick="asistio25()">✅</a>
+
+                        <a id="falto25" class="btn item-btn btn-warning display-7"onclick="falta25()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp26" class="item-img">
+                        <img src="estudiantes/26.png" alt="" title="" data-slide-to="25">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e26">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio26" class="btn item-btn btn-primary display-7"onclick="asistio26()">✅</a>
+
+                        <a id="falto26" class="btn item-btn btn-warning display-7"onclick="falta26()">❌</a>
+                    </div>
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp27" class="item-img">
+                        <img src="estudiantes/27.png" alt="" title="" data-slide-to="26">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e27">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio27" class="btn item-btn btn-primary display-7"onclick="asistio27()">✅</a>
+
+                        <a id="falto27" class="btn item-btn btn-warning display-7"onclick="falta27()">❌</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp28" class="item-img">
+                        <img src="estudiantes/28.png" alt="" title="" data-slide-to="27">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e28">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio28" class="btn item-btn btn-primary display-7"onclick="asistio28()">✅</a>
+
+                        <a id="falto28" class="btn item-btn btn-warning display-7"onclick="falta28()">❌</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp29" class="item-img">
+                        <img src="estudiantes/29.png" alt="" title="" data-slide-to="28">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e29">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio29" class="btn item-btn btn-primary display-7"onclick="asistio29()">✅</a>
+
+                        <a id="falto29" class="btn item-btn btn-warning display-7"onclick="falta29()">❌</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp30" class="item-img">
+                        <img src="estudiantes/30.png" alt="" title="" data-slide-to="29">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e30">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio30" class="btn item-btn btn-primary display-7"onclick="asistio30()">✅</a>
+
+                        <a id="falto30" class="btn item-btn btn-warning display-7"onclick="falta30()">❌</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 30 Estudiantes -->
+            
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp31" class="item-img">
+                        <img src="estudiantes/31.png" alt="" title="" data-slide-to="30">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e31">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio31" class="btn item-btn btn-primary display-7"onclick="asistio31()">✅</a>
+
+                        <a id="falto31" class="btn item-btn btn-warning display-7"onclick="falta31()">❌</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp32" class="item-img">
+                        <img src="estudiantes/32.png" alt="" title="" data-slide-to="31">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e32">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio32" class="btn item-btn btn-primary display-7"onclick="asistio32()">✅</a>
+
+                        <a id="falto32" class="btn item-btn btn-warning display-7"onclick="falta32()">❌</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp33" class="item-img">
+                        <img src="estudiantes/33.png" alt="" title="" data-slide-to="32">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e33">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio33" class="btn item-btn btn-primary display-7"onclick="asistio33()">✅</a>
+
+                        <a id="falto33" class="btn item-btn btn-warning display-7"onclick="falta33()">❌</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp34" class="item-img">
+                        <img src="estudiantes/34.png" alt="" title="" data-slide-to="33">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e34">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio34" class="btn item-btn btn-primary display-7"onclick="asistio34()">✅</a>
+
+                        <a id="falto34" class="btn item-btn btn-warning display-7"onclick="falta34()">❌</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-image сol-12 col-md-6 col-lg-3">
+                <div class="item-wrapper">
+                    <div id="imgp35" class="item-img">
+                        <img src="estudiantes/35.png" alt="" title="" data-slide-to="34">
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-6"><strong id="e35">John Doe</strong></h5>
+                        
+                        
+                    </div>
+                    <div class="mbr-section-btn item-footer mt-2">
+                        <a id="asistio35" class="btn item-btn btn-primary display-7"onclick="asistio35()">✅</a>
+
+                        <a id="falto35" class="btn item-btn btn-warning display-7"onclick="falta35()">❌</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+<section class="content11 cid-sCeLl4lCNp" id="content11-a">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" onclick="generar()">Generar</a><a class="btn btn-danger display-4" onclick="descargar()">Descargar</a>
+                    <a class="btn btn-primary-outline display-4" onclick="window.location.reload();">Reiniciar todo</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content8 cid-sCeLEXBpG2" id="content8-b">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="counter-container col-md-12 col-lg-9">
+                <h4 class="mbr-section-title mbr-fonts-style mb-4 display-5">
+                    Lista de asistencia</h4>
+                   
+                <div class="mbr-text mbr-fonts-style display-7">
+                    <ul id="imp">
+                        <li><span id="ne1">John Doe</span> 👉 <strong id="aof1">Sin registro</strong></li>
+                        <li><span id="ne2">John Doe</span> 👉 <strong id="aof2">Sin registro</strong></li>
+                        <li><span id="ne3">John Doe</span> 👉 <strong id="aof3">Sin registro</strong></li>
+                        <li><span id="ne4">John Doe</span> 👉 <strong id="aof4">Sin registro</strong></li>
+                        <li><span id="ne5">John Doe</span> 👉 <strong id="aof5">Sin registro</strong></li>
+                        <li><span id="ne6">John Doe</span> 👉 <strong id="aof6">Sin registro</strong></li>
+                        <li><span id="ne7">John Doe</span> 👉 <strong id="aof7">Sin registro</strong></li>
+                        <li><span id="ne8">John Doe</span> 👉 <strong id="aof8">Sin registro</strong></li>
+                        <li><span id="ne9">John Doe</span> 👉 <strong id="aof9">Sin registro</strong></li>
+                        <li><span id="ne10">John Doe</span> 👉 <strong id="aof10">Sin registro</strong></li>
+                        <li><span id="ne11">John Doe</span> 👉 <strong id="aof11">Sin registro</strong></li>
+                        <li><span id="ne12">John Doe</span> 👉 <strong id="aof12">Sin registro</strong></li>
+                        <li><span id="ne13">John Doe</span> 👉 <strong id="aof13">Sin registro</strong></li>
+                        <li><span id="ne14">John Doe</span> 👉 <strong id="aof14">Sin registro</strong></li>
+                        <li><span id="ne15">John Doe</span> 👉 <strong id="aof15">Sin registro</strong></li>
+                        <li><span id="ne16">John Doe</span> 👉 <strong id="aof16">Sin registro</strong></li>
+                        <li><span id="ne17">John Doe</span> 👉 <strong id="aof17">Sin registro</strong></li>
+                        <li><span id="ne18">John Doe</span> 👉 <strong id="aof18">Sin registro</strong></li>
+                        <li><span id="ne19">John Doe</span> 👉 <strong id="aof19">Sin registro</strong></li>
+                        <li><span id="ne20">John Doe</span> 👉 <strong id="aof20">Sin registro</strong></li>
+                        <li><span id="ne21">John Doe</span> 👉 <strong id="aof21">Sin registro</strong></li>
+                        <li><span id="ne22">John Doe</span> 👉 <strong id="aof22">Sin registro</strong></li>
+                        <li><span id="ne23">John Doe</span> 👉 <strong id="aof23">Sin registro</strong></li>
+                        <li><span id="ne24">John Doe</span> 👉 <strong id="aof24">Sin registro</strong></li>
+                        <li><span id="ne25">John Doe</span> 👉 <strong id="aof25">Sin registro</strong></li>
+                        <li><span id="ne26">John Doe</span> 👉 <strong id="aof26">Sin registro</strong></li>
+                        <li><span id="ne27">John Doe</span> 👉 <strong id="aof27">Sin registro</strong></li>
+                        <li><span id="ne28">John Doe</span> 👉 <strong id="aof28">Sin registro</strong></li>
+                        <li><span id="ne29">John Doe</span> 👉 <strong id="aof29">Sin registro</strong></li>
+                        <li><span id="ne30">John Doe</span> 👉 <strong id="aof30">Sin registro</strong></li>
+                        <li><span id="ne31">John Doe</span> 👉 <strong id="aof31">Sin registro</strong></li>
+                        <li><span id="ne32">John Doe</span> 👉 <strong id="aof32">Sin registro</strong></li>
+                        <li><span id="ne33">John Doe</span> 👉 <strong id="aof33">Sin registro</strong></li>
+                        <li><span id="ne34">John Doe</span> 👉 <strong id="aof34">Sin registro</strong></li>
+                        <li><span id="ne35">John Doe</span> 👉 <strong id="aof35">Sin registro</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/js/interior.js">
+</script>
+<section class="footer3 cid-sCeQHqZ5fc" once="footers" id="footer3-e">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7" >...</li>
+
+                </ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                        
+                <div class="soc-item">
+                        <a href="https://www.facebook.com/KevinAlvaradoMPE" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.twitter.com/KevinAlvaradoM" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.instagram.com/KevinAlvaradoMPE" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2021 Asistencia - Hecho con 💜 por <a href="http://www.facebook.com/KevinAlvaradoMPE" class="text-primary">Kevin Alvarado Muñoz</a> - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section ><a href="https://mobirise.site/i" ></a></section>
+<script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+<script src="assets/filesaver/filesaver.js"></script>
+</html>
