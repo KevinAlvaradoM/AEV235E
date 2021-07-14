@@ -1,3 +1,5 @@
+//Pronto se añadiran mas actualizaciones e intrucciones de como añadir o quitar estudiantes
+
 
     document.getElementById("e1").innerHTML = E1;
     document.getElementById("e2").innerHTML = E2;
